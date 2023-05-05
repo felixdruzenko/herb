@@ -1,0 +1,129 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .secc {
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 2rem;
+  }
+
+  li {
+        color: #fff;
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+  }
+  p {
+    color: #333;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .down {
+    color: #333;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    bottom: 100%;
+  }
+  
+   .sec {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .redd {
+    color: red;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Product Section Styles */
+  #product {
+    background-color: #333;
+    height: 100vh;
+  }
+  
+  .product-text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+  }
+  
+  /* Buy Section Styles */
+  #buy {
+    background-image: url('main2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .buy-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00796B;
+  }
+  
